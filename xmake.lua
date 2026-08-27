@@ -7,7 +7,6 @@ set_languages("c++23")
 set_warnings("allextra")
 
 add_rules("mode.debug", "mode.releasedbg")
-add_rules("plugin.vsxmake.autoupdate")
 
 set_config("commonlib_toml", true)
 
@@ -17,8 +16,5 @@ target("styyx-adjustable-attributes")
         author = "styyx",
         description = "Change how attributes are consumed"
     })
-
-    add_files("src/**.cpp")
-    add_headerfiles("src/**.h")
-    add_includedirs("src")
+    add_files("src/main.cpp")
     set_pcxxheader("src/pch.h")
