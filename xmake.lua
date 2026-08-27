@@ -17,4 +17,3 @@ target("styyx-adjustable-attributes")
         description = "Change how attributes are consumed"
     })
     add_files("src/main.cpp")
-    set_pcxxheader("src/pch.h")

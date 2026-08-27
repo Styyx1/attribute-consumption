@@ -1,4 +1,6 @@
+#include <RE/Skyrim.h>
 #include <REX/REX.h>
+#include <SKSE/SKSE.h>
 
 namespace AATC::CONF::CONST {
 
