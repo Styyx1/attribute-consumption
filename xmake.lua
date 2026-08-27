@@ -16,4 +16,4 @@ target("styyx-adjustable-attributes")
         author = "styyx",
         description = "Change how attributes are consumed"
     })
-    add_files("src/main.cpp")
+    add_files("main.cpp")
